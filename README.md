@@ -22,7 +22,7 @@ This project facilitates decentralized image upload and sharing on the blockchai
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/decentralized-image-upload.git
+   git clone https://github.com/YashR461/DecentralizedDrive.git
    ```
 2. Install dependencies for the hardhat:
 
@@ -41,7 +41,7 @@ This project facilitates decentralized image upload and sharing on the blockchai
 4. Deploy the Solidity smart contract to an Ethereum testnet or local development environment.
    ```bash
    # Deploy Smart Contract
-   npx hardhat run scripts/deploy.js --network <network-name>
+   npx hardhat run --network localhost scripts/deploy.js 
    ```
 5. Install dependencies for the React front end:
    ```bash
@@ -80,3 +80,6 @@ Once the setup and configuration are complete, follow these steps to utilize the
    - Use the "Get Data" button to access other users' images. Input the user's address in the designated box, but remember, you can only access their images if they've granted you access through the smart contract. Otherwise, it will throw an error saying "You don't have access".
 
 These steps will ensure smooth navigation and utilization of the system while maintaining access control and avoiding potential errors.
+
+## Author
+# Yash Rastogi
